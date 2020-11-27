@@ -23,6 +23,8 @@ A virtual keyboard for X11 for C Suite. This project uses X11 functions from fro
 %autosetup -p1 -n %{name}-v%{version}
 
 %build
+export CC=gcc
+export CXX=g++
 %qmake_qt5 \
             PREFIX=/usr
             
