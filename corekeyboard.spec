@@ -8,7 +8,7 @@ License:        GPL3
 Group:          System/Libraries
 URL:            https://gitlab.com/cubocore/coreapps/corekeyboard
 Source0:        https://gitlab.com/cubocore/coreapps/corekeyboard/-/archive/v%{version}/corekeyboard-v%{version}.tar.bz2
-Patch0:		corekeyboard-4.0.0-clang-11.patch
+#Patch0:		corekeyboard-4.0.0-clang-11.patch
 
 BuildRequires: qt5-devel
 BuildRequires: qt5-qtbase-devel
