@@ -7,7 +7,7 @@ Summary:        A virtual keyboard for X11 from the CoreApps family
 License:        GPL3
 Group:          System/Libraries
 URL:            https://gitlab.com/cubocore/coreapps/corekeyboard
-Source0:        https://gitlab.com/cubocore/coreapps/corekeyboard/-/archive/v4.0.0/corekeyboard-v4.0.0.tar.bz2
+Source0:        https://gitlab.com/cubocore/coreapps/corekeyboard/-/archive/v%{version}/corekeyboard-v%{version}.tar.bz2
 Patch0:		corekeyboard-4.0.0-clang-11.patch
 
 BuildRequires: qt5-devel
