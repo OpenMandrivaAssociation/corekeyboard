@@ -12,7 +12,7 @@ Source0:        https://gitlab.com/cubocore/coreapps/corekeyboard/-/archive/v%{v
 BuildRequires: cmake
 BuildRequires: qt5-devel
 BuildRequires: qt5-qtbase-devel
-BuildRequires: pkgconfig(cprime)
+BuildRequires: pkgconfig(cprime-core)
 BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: pkgconfig(xtst)
 BuildRequires: pkgconfig(x11)
