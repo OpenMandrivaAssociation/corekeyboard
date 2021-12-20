@@ -1,7 +1,7 @@
-%global debug_package %{nil}
+#global debug_package %{nil}
 
 Name:           corekeyboard
-Version:        4.1.0
+Version:        4.2.0
 Release:        1
 Summary:        A virtual keyboard for X11 from the CoreApps family
 License:        GPL3
@@ -9,6 +9,7 @@ Group:          System/Libraries
 URL:            https://gitlab.com/cubocore/coreapps/corekeyboard
 Source0:        https://gitlab.com/cubocore/coreapps/corekeyboard/-/archive/v%{version}/corekeyboard-v%{version}.tar.bz2
 
+BuildRequires: cmake
 BuildRequires: qt5-devel
 BuildRequires: qt5-qtbase-devel
 BuildRequires: pkgconfig(cprime)
@@ -23,15 +24,13 @@ A virtual keyboard for X11 for C Suite. This project uses X11 functions from fro
 
 %prep
 %autosetup -p1 -n %{name}-v%{version}
-%qmake_qt5 \
-            PREFIX=%{_prefix}
+%cmake
 
 %build
 %make_build
 
 %install
-mkdir -p %{buildroot}%{_bindir}
-%make_install INSTALL_ROOT=%{buildroot}
+%make_install -C build
 
 %files
 %{_bindir}/corekeyboard
