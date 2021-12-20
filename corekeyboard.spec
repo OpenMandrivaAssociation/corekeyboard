@@ -24,9 +24,9 @@ A virtual keyboard for X11 for C Suite. This project uses X11 functions from fro
 
 %prep
 %autosetup -p1 -n %{name}-v%{version}
-%cmake
 
 %build
+%cmake
 %make_build
 
 %install
