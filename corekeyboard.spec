@@ -17,7 +17,7 @@ BuildRequires: pkgconfig(Qt5X11Extras)
 BuildRequires: pkgconfig(xtst)
 BuildRequires: pkgconfig(x11)
 
-Requires: libcprime
+Requires: %{_lib}cprime4
   
 %description
 A virtual keyboard for X11 for C Suite. This project uses X11 functions from from kvkbd.
