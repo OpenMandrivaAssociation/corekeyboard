@@ -34,5 +34,6 @@ A virtual keyboard for X11 for C Suite. This project uses X11 functions from fro
 
 %files
 %{_bindir}/corekeyboard
+%{_sysconfdir}/xdg/autostart/org.cubocore.CoreKeyboard-Tray.desktop
 %{_datadir}/applications/org.cubocore.CoreKeyboard.desktop
 %{_iconsdir}/hicolor/scalable/apps/org.cubocore.CoreKeyboard.svg
