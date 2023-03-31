@@ -2,7 +2,7 @@
 
 Name:           corekeyboard
 Version:        4.4.0
-Release:        1
+Release:        2
 Summary:        A virtual keyboard for X11 from the CoreApps family
 License:        GPL3
 Group:          System/Libraries
