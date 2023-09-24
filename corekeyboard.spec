@@ -1,8 +1,8 @@
 #global debug_package %{nil}
 
 Name:           corekeyboard
-Version:        4.4.0
-Release:        2
+Version:        4.5.0
+Release:        1
 Summary:        A virtual keyboard for X11 from the CoreApps family
 License:        GPL3
 Group:          System/Libraries
